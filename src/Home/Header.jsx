@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Menu, Row, Col, Icon, Button, Popover, Badge } from 'antd';
-
+import logoImg from './static/images/logo.png';
 
 const searchEngine = 'Google';
 
@@ -107,12 +107,12 @@ export default class Header extends React.Component {
         <Row>
           <Col lg={4} md={5} sm={24} xs={24}>
             <a id="logo">
-              <img alt="logo" src="https://t.alipayobjects.com/images/rmsweb/T1B9hfXcdvXXXXXXXX.svg" />
-              <span>Ant Design</span>
+              <img alt="logo" src={logoImg} />
+              <span>Zeeker Cloud</span>
             </a>
           </Col>
           <Col lg={20} md={19} sm={0} xs={0}>
-            {menuMode === 'horizontal' ? menu : null}
+            {/* {menuMode === 'horizontal' ? menu : null} */}
           </Col>
         </Row>
       </header>

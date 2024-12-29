@@ -13,10 +13,10 @@ export default function Page4() {
         type="bottom"
       >
         <h2 key="h2">
-          微小 · 确定 · 幸福
+          About Us
         </h2>
-        <p key="p">
-          这是一套致力于提升『用户』和『设计者』使用体验的中后台设计语言。
+        <p key="p" style={{ maxWidth: 1200 }}>
+        Founded in 2024, ZeekerCloud is committed to providing E2E cloud services from application modernization to cloud infrastructure migration. We work with the world's leading public cloud providers to provide security, reliability, and stability for your digital infrastructure.
         </p>
       </QueueAnim>
       <TweenOne

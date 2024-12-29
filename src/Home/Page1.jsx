@@ -20,16 +20,17 @@ export default function Page1({ isMobile }) {
         key="text"
         leaveReverse
       >
-        <h2 key="h2">最佳实践</h2>
-        <p key="p" style={{ maxWidth: 310 }}>近一年的中后台设计实践，积累了大量的优秀案例。</p>
-        <div key="button">
+        <h2 key="h2">Cloud Migration</h2>
+        <p key="p" style={{ maxWidth: 380 }}>Support customized migration plans from one cloud platform to other, including Google Cloud Platform, Microsoft Azure and Amazon AWS.
+        </p>
+        {/* <div key="button">
           <a>
             <Button type="primary" size="large">
               了解更多
               <Icon type="right" />
             </Button>
           </a>
-        </div>
+        </div> */}
       </QueueAnim>
     </ScrollOverPack>
   );

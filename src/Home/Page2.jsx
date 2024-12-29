@@ -17,16 +17,16 @@ export default function Page2() {
         type="bottom"
         leaveReverse
       >
-        <h2 key="h2">设计模式</h2>
-        <p key="p" style={{ maxWidth: 260 }}>总结中后台设计中反复出现的问题，并提供相应的解决方案。</p>
-        <div key="button">
+        <h2 key="h2">Cloud Architecture</h2>
+        <p key="p" style={{ maxWidth: 380 }}>Review your current cloud architecture and offer step by step optimisation and migration plan based on industry best practice.</p>
+        {/* <div key="button">
           <a>
             <Button type="primary" size="large">
               了解更多
               <Icon type="right" />
             </Button>
           </a>
-        </div>
+        </div> */}
       </QueueAnim>
       <TweenOne
         key="image"
