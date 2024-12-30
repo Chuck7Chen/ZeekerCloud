@@ -42,7 +42,8 @@ function Footer() {
         <Col lg={20} sm={24}>
           <span
             style={{
-              lineHeight: '16px', paddingRight: 12, marginRight: 11, borderRight: '1px solid rgba(255, 255, 255, 0.55)',
+              lineHeight: '16px', paddingRight: 12,
+              marginRight: 11, borderRight: '1px solid rgba(255, 255, 255, 0.55)',
             }}
           >
             <a

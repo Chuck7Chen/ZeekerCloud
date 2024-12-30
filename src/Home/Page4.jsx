@@ -16,7 +16,10 @@ export default function Page4() {
           About Us
         </h2>
         <p key="p" style={{ maxWidth: 1200 }}>
-        Founded in 2024, ZeekerCloud is committed to providing E2E cloud services from application modernization to cloud infrastructure migration. We work with the world's leading public cloud providers to provide security, reliability, and stability for your digital infrastructure.
+          Founded in 2024, ZeekerCloud is committed to providing E2E cloud
+          services from application modernization to cloud infrastructure migration.
+          We work with the world's leading public cloud providers to
+          provide security, reliability, and stability for your digital infrastructure.
         </p>
       </QueueAnim>
       <TweenOne

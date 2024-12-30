@@ -1,7 +1,7 @@
 import React from 'react';
 import TweenOne from 'rc-tween-one';
 import ScrollOverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { Icon, Button } from 'antd';
+// import { Icon, Button } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 
 export default function Page2() {
