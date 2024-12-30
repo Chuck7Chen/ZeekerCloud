@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Menu, Row, Col, Icon, Button, Popover, Badge } from 'antd';
-import logoImg from '../../public/images/logo.png';
+// import logoImg from '../../public/images/logo.png';
 
 const searchEngine = 'Google';
 
@@ -107,7 +107,7 @@ export default class Header extends React.Component {
         <Row>
           <Col lg={4} md={5} sm={24} xs={24}>
             <a id="logo">
-              <img alt="logo" src={logoImg} />
+              <img alt="logo" src="/public/images/logo.png" />
               <span>Zeeker Cloud</span>
             </a>
           </Col>

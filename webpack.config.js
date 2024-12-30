@@ -9,15 +9,15 @@ module.exports = function (webpackConfig) {
     libraryName: 'antd',
     style: 'css',
   }]);
-  // webpackConfig.plugins.push(new ImageminWebpWebpackPlugin({
-  //   config: [{
-  //     test: /\.(jpe?g|png)$/i, // 匹配 JPEG 和 PNG 文件
-  //     options: {
-  //       quality: 80, // 设置图片质量
-  //     },
-  //   }],
-  //   verbose: true, // 是否打印详细日志
-  // }));
+  webpackConfig.module.loaders.push({
+    test: /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/,
+    loader: 'file-loader',
+    query: {
+      name: '[name].[hash:7].[ext]', // 文件名
+      outputPath: 'public/images/', // 输出路径
+      publicPath: '/public/images/', // 公共路径
+    },
+  });
 
   return webpackConfig;
 };
