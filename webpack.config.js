@@ -9,7 +9,21 @@ module.exports = function(webpackConfig) {
     libraryName: 'antd',
     style: 'css',
   }]);
-  webpackConfig.plugins.push(new ImageminWebpWebpackPlugin());
+  webpackConfig.plugins.push(new ImageminWebpWebpackPlugin({
+    config: [
+      {
+        test: /\.(jpe?g|png)/,
+        options: {
+          quality: 75
+        }
+      }
+    ],
+    outputName: '[path][name].[ext]', // 确保定义了 outputName
+    overrideExtension: true,
+    detailedLogs: false,
+    silent: true,
+    strict: true
+  }));
 
   return webpackConfig;
 };
